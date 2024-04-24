@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        User user = new User("John Doe ", "MAD Developer", 1, false);
+        UserTest userTest = new UserTest("John Doe ", "MAD Developer", 1, false);
 
         // Get the TextViews and Button from the layout
         TextView tvName = findViewById(R.id.textView); // Update to match the ID in your layout
@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         Button btnFollow = findViewById(R.id.button1);
 
         // Set the TextViews with the User's name, description and default button message
-        tvName.setText(user.name);
-        tvDescription.setText(user.description);
+        tvName.setText(userTest.name);
+        tvDescription.setText(userTest.description);
         btnFollow.setText("Follow");
 
         //set the click listener
