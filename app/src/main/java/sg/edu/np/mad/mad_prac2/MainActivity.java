@@ -1,4 +1,4 @@
-package sg.edu.np.mad.madpractical2;
+package sg.edu.np.mad.mad_prac2;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
