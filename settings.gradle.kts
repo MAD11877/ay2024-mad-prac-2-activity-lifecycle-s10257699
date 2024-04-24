@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "MAD-Prac2"
 include(":app")
 include(":app")
- 
+include(":app")
