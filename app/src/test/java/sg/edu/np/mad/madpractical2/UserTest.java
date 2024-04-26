@@ -9,22 +9,22 @@ public class UserTest {
     @Test
     public void testUserConstructor() {
         // Test the constructor of the User class
-        User userTest = new User("John Doe", "MAD Developer", 1, false);
+        User user = new User("John Doe", "MAD Developer", 1, false);
 
         // Assert that the user object is not null
-        assertNotNull(userTest);
+        assertNotNull(user);
 
         // Assert that the user's name matches the expected value
-        assertEquals("John Doe", userTest.name);
+        assertEquals("John Doe", user.name);
 
         // Assert that the user's description matches the expected value
-        assertEquals("MAD Developer", userTest.description);
+        assertEquals("MAD Developer", user.description);
 
         // Assert that the user's id matches the expected value
-        assertEquals(1, userTest.id);
+        assertEquals(1, user.id);
 
         // Assert that the user's followed status matches the expected value
-        assertFalse(userTest.followed);
+        assertFalse(user.followed);
     }
 
     // You can add more test methods here to cover other functionalities of the User class
