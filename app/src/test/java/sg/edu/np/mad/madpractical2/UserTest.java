@@ -1,10 +1,19 @@
 package sg.edu.np.mad.madpractical2;
 
-import sg.edu.np.mad.mad_prac2.User;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import sg.edu.np.mad.mad_prac2.User;
+
 public class UserTest {
+
+    @Test
+    public void testUserCreation() {
+        // Test the constructor of the User class
+        User user = new User("John Doe", "MAD Developer", 1, false);
+
+        // Your test logic here
+    }
 
     @Test
     public void testUserConstructor() {
@@ -29,4 +38,5 @@ public class UserTest {
 
     // You can add more test methods here to cover other functionalities of the User class
 }
+
 
